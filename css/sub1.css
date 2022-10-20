@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+.sublayout {
+    background: #fff;
+}
+.subTitle{
+    position: relative;
+    background-image: url('../img/sub-about-bg-01.png');
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: top;
+    overflow: hidden;
+}
+.subTitleTxt {
+    color: #fff;
+    position: absolute;
+    bottom: 67px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.subTitleTxt h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 12px;
+    letter-spacing: -1.8px;
+}
+.subTitleTxt p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -.54px;
+}
+
+/* section 1 */
+.greetingInner {
+    display: flex;
+    padding: 130px 0;
+   
+}
+.greetingBox {
+    line-height: normal;
+    margin-right: 100px;
+    animation-name: h2up;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation-timing-function: ease-out;    
+}
+
+@keyframes h2up{
+  0%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(10%);
+    opacity: 0.4;
+  }
+}
+
+.greetingTitle {
+    width: 700px;
+    margin-bottom: 100px;
+}
+
+.greetingTitle h2{
+    font-weight: 500;
+    font-size: 45px;
+    letter-spacing: -1.5px;
+    margin-bottom: 50px;
+}
+
+.greetingTitle p{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -.54px;
+}
+.greetingTxt h3{
+    position: relative;
+    font-size: 30px;
+    letter-spacing: -.9px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+    font-weight: 500;
+}
+.greetingTxt h3::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    top: 22px;
+    left: 0;
+    background-color: #222;
+}
+.greetingTxt p{
+    margin-bottom: 80px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -.54px;
+}
+.greetingTxt .greeInAddition, .greetingTxt .greeAddition, .greetingTxt .greeThanks{
+    margin-bottom: 30px;
+}
+.greetingImg img{
+    width: 600px;
+    margin-top: 20px;
+}
+.greetingImg .greetingImg1{
+    margin-top: 0;
+}
+
+.greetingImg1{
+    animation-name: h2up;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation-timing-function: ease-out;    
+}
+
+@keyframes h2up{
+  0%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(10%);
+    opacity: 0.4;
+  }
+}
+
+.greetingImg2{
+    animation-name: h2up1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation-timing-function: ease-out;    
+}
+
+@keyframes h2up1{
+  0%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(10%);
+    opacity: 0.4;
+  }
+}
+
+
+
+.greetingImg3{
+    animation-name: h2up2;
+    animation-duration: 2.3s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation-timing-function: ease-out;    
+}
+
+@keyframes h2up2{
+  0%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(10%);
+    opacity: 0.4;
+  }
+}
+
+
